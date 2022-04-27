@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(26, 26, 41);
+    margin: 10px;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: #fff;
+}
+.main-1 {
+    text-align: center;
+    color: #fff;
+}
+
+.main-1 h3{
+    font-weight: 500;
+}
+button {
+    padding: 10px;
+    width: 15%;
+    color: #fff;
+    background-color: lightblue;
+    border-radius: 50px;
+    border: 0;
+}
+.main-2 {
+    background-image: url(images/bg-curvy-desktop.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    padding-bottom: 500px;
+    
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    justify-items: center;
+}
+.column{
+    margin-top: 10px;
+    padding-top: 50px;
+    row-gap: none;
+}
+
+.main-3 {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.main-3 img{
+    margin-right: -70px;
+    margin-top: -20px;
+}
+.profile {
+    flex-basis: 31%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding: 15px 5px;
+    /*box-sizing: border-box;*/
+    width: 70px;
+    height: 150px;
+    background: rgb(87, 84, 84);
+}
+
+.profile img {
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+}
+.profile h6 {
+    margin: -17px;
+    font-weight: 200;
+}
+.profile p{
+    font-size: medium;
+}
+
+.main-4 {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    background: #252536;
+    width: 900px;
+    height: 200px;
+}
+.main-4 .btn1{
+    padding: 10px;
+    width: 55%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 0;
+    margin: 5px;
+
+}
+.main-4 .btn2 {
+    padding: 10px;
+    width: 20%;
+    color: #fff;
+    background-color: lightblue;
+    border-radius: 50px;
+    border: 0;
+    margin: 5px;
+}
+
+.footer {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#footer1 {
+    margin-top: 25px;
+    display: flex;
+    color: #fff;
+    align-items: space-between;
+    gap: 50px;
+}
+
+.foot {
+    flex-direction: column;
+    flex-basis: 1;
+    
+}
+
+.foot li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+.foot li img{
+    padding-right: 15px;
+}
+.foot li i{
+    padding-right: 15px;
+}
